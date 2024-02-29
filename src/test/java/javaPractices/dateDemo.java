@@ -15,8 +15,8 @@ public class dateDemo {
 		System.out.println(sdf.format(d));
 		System.out.println(sd.format(d));
 		System.out.println(d.toString());
-		
-
+		System.out.println("git");
+		System.out.println("github");
 	}
 
 }
