@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "793aed86-d565-4e2a-9466-536cfdcf831c",
+		"name": "EDI load Tender",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19732571"
+	},
+	"item": [
+		{
+			"name": "EDI Req.",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<getLoadTendersRequest>\r\n<loadTenders>\r\n<loadTender>\r\n<version>1.0</version>\r\n<shipmentId>EDI102053</shipmentId>\r\n<customerId>Cust_1356</customerId>\r\n<senderId/>\r\n<receiverId>AIR</receiverId>\r\n<equipmentType>TV</equipmentType>\r\n<paymentTerms>PP</paymentTerms>\r\n<totalCharge>171571</totalCharge>\r\n<totalWeight>12000</totalWeight>\r\n<totalPieces>950</totalPieces>\r\n<totalPallet>2200</totalPallet>\r\n<customerName>AUTOMATION EDI CRMCA</customerName>\r\n<stops>\r\n<stop>\r\n<stopName>Berry TMC Cumberland Whse</stopName>\r\n<stopNum>1</stopNum>\r\n<stopType>LD</stopType>\r\n<apptDate>20220831</apptDate>\r\n<apptHrs>0945</apptHrs>\r\n<openTime>0945</openTime>\r\n<closeTime>1245</closeTime>\r\n<apptNote>No Touch</apptNote>\r\n<apptNote>\r\nXXXX PLEASE CALL/EMAIL JENNIFER SCHUBERT FOR DELIVERY APPT. JSCHUBERT@NEIGHBO\r\n</apptNote>\r\n<apptNote>\r\nRSCOOKIES.COM 318-397-7225 COC MUST BE SENT PRIOR TO SHIPMENT BY EMAIL TO JENN\r\n</apptNote>\r\n<apptNote>\r\nIFER PLEASE INCLUDE A LIST OF LOT CODE AND QTY PER LOT.\r\n</apptNote>\r\n<contactName>Berry TMC Cumberland Whse</contactName>\r\n<phone>3017593145</phone>\r\n<email>CUMBship@berryglobal.com</email>\r\n<addr1>11301 Superfos Drive, SE</addr1>\r\n<addr2/>\r\n<city>CUMBERLAND</city>\r\n<state>MD</state>\r\n<zip>21502</zip>\r\n<country>US</country>\r\n<BOLs>\r\n<BOL>\r\n<pickupStopNum>1</pickupStopNum>\r\n<dropoffStopNum>2</dropoffStopNum>\r\n<bolNum/>\r\n<bolName/>\r\n<bolDesc/>\r\n<BOLdetails>\r\n<BOLdetail>\r\n<length/>\r\n<width/>\r\n<height/>\r\n<refNumber>1</refNumber>\r\n<description>L314IML,C,\r\n5,IML N1682288 500</description>\r\n<dimentionUnit/>\r\n</BOLdetail>\r\n</BOLdetails>\r\n<pallets>110</pallets>\r\n<pieces>200</pieces>\r\n<weightCode>L</weightCode>\r\n<weight>3500</weight>\r\n</BOL>\r\n</BOLs>\r\n</stop>\r\n<stop>\r\n<stopName>NEIGHBORS LLC</stopName>\r\n<stopNum>2</stopNum>\r\n<stopType>UL</stopType>\r\n<apptDate>20220831</apptDate>\r\n<apptHrs>1400</apptHrs>\r\n<openTime>1100</openTime>\r\n<closeTime>2300</closeTime>\r\n<apptNote>\r\nBERRY MAKE DELIVERY APPT JENNIFER SCHUBERT 318 397 1124 X 7225 . . BERRY MA\r\n</apptNote>\r\n<apptNote>\r\nKE DELIVERY APPT JENNIFER SCHUBERT 318 397 1124 X 7225 . .\r\n</apptNote>\r\n<contactName>NEIGHBORS LLC</contactName>\r\n<phone>3183971124</phone>\r\n<addr1>131 Frost Commercial Dr</addr1>\r\n<addr2/>\r\n<city>West Monroe</city>\r\n<state>LA</state>\r\n<zip>71292</zip>\r\n<country>US</country>\r\n<BOLs>\r\n<BOL>\r\n<pickupStopNum>1</pickupStopNum>\r\n<dropoffStopNum>2</dropoffStopNum>\r\n<bolNum/>\r\n<bolName/>\r\n<bolDesc/>\r\n<BOLdetails>\r\n<BOLdetail>\r\n<length/>\r\n<width/>\r\n<height/>\r\n<refNumber>1</refNumber>\r\n<description>L314IML,C,\r\n5,IML N1682288 500</description>\r\n<dimentionUnit/>\r\n</BOLdetail>\r\n</BOLdetails>\r\n<pallets>45</pallets>\r\n<pieces>180</pieces>\r\n<weightCode>L</weightCode>\r\n<weight>2900</weight>\r\n</BOL>\r\n</BOLs>\r\n</stop>\r\n<stop>\r\n<stopName>Berry TMC Cumberland Whse</stopName>\r\n<stopNum>3</stopNum>\r\n<stopType>UL</stopType>\r\n<apptDate>20220808</apptDate>\r\n<apptHrs>1700</apptHrs>\r\n<openTime>1700</openTime>\r\n<closeTime>1700</closeTime>\r\n<apptNote>No Touch</apptNote>\r\n<apptNote>\r\nXXXX PLEASE CALL/EMAIL JENNIFER SCHUBERT FOR DELIVERY APPT. JSCHUBERT@NEIGHBO\r\n</apptNote>\r\n<apptNote>\r\nRSCOOKIES.COM 318-397-7225 COC MUST BE SENT PRIOR TO SHIPMENT BY EMAIL TO JENN\r\n</apptNote>\r\n<apptNote>\r\nIFER PLEASE INCLUDE A LIST OF LOT CODE AND QTY PER LOT.\r\n</apptNote>\r\n<contactName>Berry TMC Cumberland Whse</contactName>\r\n<phone>3017593145</phone>\r\n<email>CUMBship@berryglobal.com</email>\r\n<addr1>11301 Superfos Drive, SE</addr1>\r\n<addr2/>\r\n<city>CUMBERLAND</city>\r\n<state>MD</state>\r\n<zip>21502</zip>\r\n<country>US</country>\r\n<BOLs>\r\n<BOL>\r\n<pickupStopNum>1</pickupStopNum>\r\n<dropoffStopNum>2</dropoffStopNum>\r\n<bolNum/>\r\n<bolName/>\r\n<bolDesc/>\r\n<BOLdetails>\r\n<BOLdetail>\r\n<length/>\r\n<width/>\r\n<height/>\r\n<refNumber>1</refNumber>\r\n<description>L314IML,C,\r\n5,IML N1682288 500</description>\r\n<dimentionUnit/>\r\n</BOLdetail>\r\n</BOLdetails>\r\n<pallets>120</pallets>\r\n<pieces>260</pieces>\r\n<weightCode>L</weightCode>\r\n<weight>4000</weight>\r\n</BOL>\r\n</BOLs>\r\n</stop>\r\n</stops>\r\n<refNumber>T5245851</refNumber>\r\n<miles>1064</miles>\r\n<footage/>\r\n<declaredValue/>\r\n<teams/>\r\n<overSized/>\r\n<straps/>\r\n<tarps/>\r\n<tarpsCount/>\r\n<permits/>\r\n<tempControl/>\r\n<preCoolTemp/>\r\n<preCoolTempUnit/>\r\n<minTemp/>\r\n<minTempUnit/>\r\n<maxTemp/>\r\n<maxTempUnit/>\r\n<liftGatePickup/>\r\n<liftGateDrop/>\r\n<palletJackPickup/>\r\n<palletJackDrop/>\r\n<blind/>\r\n<hazmat/>\r\n<seal/>\r\n<palletExchange/>\r\n<customBonded/>\r\n<labor/>\r\n<highRisk/>\r\n<hotLoad/>\r\n<customAgent/>\r\n</loadTender>\r\n</loadTenders>\r\n</getLoadTendersRequest>"
+				},
+				"url": {
+					"raw": "https://tmsapitraining.fastmore.com/api/v1/Service/EDILoadTenderPayload?IsFromFtp=false",
+					"protocol": "https",
+					"host": [
+						"tmsapitraining",
+						"fastmore",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"Service",
+						"EDILoadTenderPayload"
+					],
+					"query": [
+						{
+							"key": "IsFromFtp",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,34 @@
+Reader reader = Files.newBufferedReader(Paths.get(System.getProperty("user.dir") + "\\src\\test\\JSON_File\\MultipleLoanCreation_ExistingMember.json"));
+       JsonObject data = JsonParser.parseReader(reader).getAsJsonObject();
+       //System.out.println(data.getAsJsonObject());
+       JsonObject nestedInput = data.get("Input").getAsJsonObject();
+       //System.out.println(nestedInput);
+       JsonObject nestedAuth = (JsonObject) nestedInput.get("UserAuthentication");
+       //System.out.println(nestedAuth);
+       //System.out.println(nestedAuth.get("NetworkNodeName"));
+       //System.out.println(nestedAuth.get("UserId"));
+       //System.out.println(nestedAuth.get("Password"));    
+
+ 
+
+      nestedAuth.addProperty("NetworkNodeName", dvic_name);
+      nestedAuth.addProperty("UserId", usr_id);
+      nestedAuth.addProperty("Password", dna_token);
+      //System.out.println(nestedAuth);
+
+      JsonArray nestedReq = (JsonArray) nestedInput.get("Requests");
+      //System.out.println(nestedReq.toJSONString());
+
+      JsonObject nestedObj1 = (JsonObject) nestedReq.get(0);
+      //System.out.println(nestedObj1.getAsJsonObject());
+
+      JsonArray nestedReq1 = (JsonArray) nestedObj1.get("Accounts");
+      //System.out.println(nestedReq.toJSONString());
+
+      JsonObject nestedObj2 = (JsonObject) nestedReq1.get(0);
+      //System.out.println(nestedObj2.getAsJsonObject());
+
+ 
+
+      JsonArray nestedReq2 = (JsonArray) nestedObj2.get("Persons");
+      //System.out.println(nestedReq.toJSONString());
