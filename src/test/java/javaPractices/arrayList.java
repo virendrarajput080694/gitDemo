@@ -29,6 +29,12 @@ public class arrayList {
 		System.out.println(a.size());
 		System.out.println(a.isEmpty());
 		
+		
+		a.add("Virendra");
+		a.add("Java");
+		a.add("java");
+		System.out.println(a);
+		
 
 
 	}

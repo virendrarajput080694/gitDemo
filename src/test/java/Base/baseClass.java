@@ -36,6 +36,8 @@ public class baseClass {
 	options.setExperimentalOption("prefs", prefs);
 	driver = new ChromeDriver(options);
 	
+	System.out.println("testing");
+	
 	}
 
 }

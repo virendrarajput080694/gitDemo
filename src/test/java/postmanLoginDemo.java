@@ -67,7 +67,7 @@ public class postmanLoginDemo extends baseClass {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[contains(@class,'Button__StyledButton-b8af3e-1 cehxYJ')]/span[text()='Export']")).click();
 		
-		
+		System.out.println("Automation testing");
 		
 		
 	}
