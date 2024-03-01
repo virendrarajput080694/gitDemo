@@ -26,6 +26,8 @@ public class staticDropdown {
 		dropdown.selectByValue("USD");
 		System.out.println(dropdown.getFirstSelectedOption().getText());
 		
+		System.out.println("Git version control system");
+		
 
 	}
 
